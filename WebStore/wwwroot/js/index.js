@@ -1,4 +1,7 @@
 ﻿var x = 0;
 var s = "";
 
-alert("Hello My E-Store");
+console.log("Hello My E-Store");
+
+var theForm = document.getElementById("TheForm");
+theForm.hidden = true;

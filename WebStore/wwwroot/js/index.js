@@ -3,14 +3,18 @@ var s = "";
 
 console.log("Hello My E-Store");
 
-var theForm = document.getElementById("TheForm");
+
+
+var theForm = $("#TheForm");
 theForm.hidden = true;
 
 
-var button = document.getElementById("BuyButton");
-button.addEventListener("click", function () {
+var button = $("#BuyButton");
+button.on("click", function () {
     console.log("Buying Item");
 });
 
-var ProductInfo = document.getElementsByClassName("product-props");
-var listItems = ProductInfo.item[0].children;
+var ProductInfo = $(".product-props li");
+ProductInfo.on("click", function () {
+    console.log("You clicked on" + $(this).text());
+})

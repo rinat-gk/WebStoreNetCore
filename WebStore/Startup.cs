@@ -23,6 +23,7 @@ namespace WebStore
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            app.UseNodeModules();
         }
     }
 }

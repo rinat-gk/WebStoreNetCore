@@ -1,5 +1,7 @@
 ﻿body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
 }
 
 input[type=submit]{
@@ -18,11 +20,11 @@ label {
 }
 
 #TheForm {
-    background-color: lightgray
+    background-color: lightgray;
 }
 
 #TheForm input[type=submit] {
-    background-color: green;
+    background-color: lightgray;
     color: white;
 }
 
@@ -49,4 +51,28 @@ ul.product-props li {
     border: 1px solid black;
     max-width: 150px;
 
+}
+
+#loginToogle {
+    cursor: pointer;
+}
+.popup-form {
+    padding: 5px;
+    border: 2px double;
+    display: inline-block;
+    
+
+}
+.popup-form input{
+    width:200px;
+}
+.popup-form label{
+    width:150px;
+    display: inline-block;
+
+
+}
+
+.popup-form input[type=checkbox], .popup-form input[type=submit] {
+    width: auto;
 }

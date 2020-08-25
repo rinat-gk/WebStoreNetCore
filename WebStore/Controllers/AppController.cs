@@ -10,7 +10,7 @@ namespace WebStore.Controllers
     {
         public IActionResult Index()
         {
-            throw new InvalidOperationException();
+            //throw new InvalidOperationException();
             return View();
         }
     }

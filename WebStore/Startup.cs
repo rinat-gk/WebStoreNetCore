@@ -28,7 +28,7 @@ namespace WebStore
             }
             else
             {
-                //Add Error page...
+                app.UseExceptionHandler("/error");
             }
             app.UseStaticFiles();
             app.UseNodeModules();

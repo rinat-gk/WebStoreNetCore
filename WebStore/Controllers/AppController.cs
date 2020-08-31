@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebStore.ViewModels;
 
 namespace WebStore.Controllers
 {
@@ -20,7 +21,7 @@ namespace WebStore.Controllers
             return View();
         }
         [HttpPost("contact")]
-        public IActionResult Contact(object model)
+        public IActionResult Contact(ContactViewModel model)
         {
             //ViewBag.Title = "Contact Us";
             return View();
